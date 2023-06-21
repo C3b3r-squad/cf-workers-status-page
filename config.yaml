@@ -24,7 +24,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: Movies Server 1[fs.plus.net.bd]
+  - id: Movies Server 1-[fs.plus.net.bd]
     name: Movies Server 1
     description: 'Built for anything connected to the Internet.'
     url: 'https://fs.plus.net.bd/'
@@ -32,7 +32,7 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: Movies Server 2[103.121.62.18]
+  - id: Movies Server 2-[103.121.62.18]
     name: Movies Server 2
     url: 'http://103.121.62.18/collection/'
     method: GET
