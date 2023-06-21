@@ -18,22 +18,22 @@ monitors:
   - id: Application Server # unique identifier
     name: Application Server
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://admin-genuine-tv.ga/' # URL to fetch
+    url: 'https://sadakalotv.online/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: Movies Server 1
+  - id: Movies Server 1[fs.plus.net.bd]
     name: Movies Server 1
     description: 'Built for anything connected to the Internet.'
-    url: 'https://drive.mirrorcheemsbot.workers.dev/0:/'
+    url: 'https://fs.plus.net.bd/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: Movies Server 2
+  - id: Movies Server 2[103.121.62.18]
     name: Movies Server 2
-    url: 'http://103.172.29.166/'
+    url: 'http://103.121.62.18/collection/'
     method: GET
     expectStatus: 200
